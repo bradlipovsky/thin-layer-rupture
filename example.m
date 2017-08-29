@@ -17,6 +17,6 @@ main( 8.1,14,5,15 );
 %
 % Usage notes are in the file main.m
 %
-% Note that this takes about 30 minutes to run on my 2016 Mac Pro with 
+% Note that this takes about 15 minutes to run on my 2016 Mac Pro with 
 % 64 Gb memory and 8 cores.
 %
