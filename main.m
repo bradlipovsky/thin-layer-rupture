@@ -1,4 +1,20 @@
 function out = main(sigma,dc,tides,d,varargin)
+
+%
+% Runs a depth-averaged simulation of the stresses and displacement along
+% an interface between a layer and a rigid half space.  This geometry
+% is a pretty good approximation of a glacier.  The format is:
+%
+%	main(sigma,dc,tides,d)	With normal stress sigma (kPa), 
+%	frictional evolution distance dc (mm), tide flag (see TideStress.m, 
+%	best option is to use either 0 for no tides or 5 for tides), and 
+%	simulation duration d (in days).	
+%
+%	main (..., varargin) There are tons of arguments that one can pass.
+%	To see a list of these, scroll down to the lines below...
+%
+%
+
 tic; 
 
 
